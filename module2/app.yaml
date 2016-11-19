@@ -1,0 +1,10 @@
+application: gae-go-werker
+module: module2
+version: alpha
+runtime: go
+api_version: go1
+threadsafe: true
+
+handlers:
+  - url: /.*
+    script: _go_app
