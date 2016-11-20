@@ -11,10 +11,12 @@ build:
         code: |
           pwd
           glide install
+          ls -al
 
     - script:
         name: go test
         code: |
           pwd
+          ls -al
           go test ./...
 
