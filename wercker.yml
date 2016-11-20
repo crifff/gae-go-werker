@@ -4,7 +4,7 @@ box:
 build:
   steps:
     - setup-go-workspace:
-      package-dir:: docker-goapp-glide
+      package-dir: docker-goapp-glide
 
     - script:
         name: glide
