@@ -33,7 +33,7 @@ func TestIndex(t *testing.T) {
 	}
 	body, _ := ioutil.ReadAll(res.Body)
 
-	if string(body) != "this page is module2" {
+	if string(body) != "this page is module1" {
 		t.Fatal(fmt.Sprintf("body: %s", string(body)))
 	}
 
