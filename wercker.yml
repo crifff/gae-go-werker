@@ -14,5 +14,5 @@ build:
     - script:
         name: go test
         code: |
-          goapp test ./...
+          ~/go_appengine/goapp test ./...
 
