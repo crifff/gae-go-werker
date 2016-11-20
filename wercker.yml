@@ -3,7 +3,8 @@ box:
   cmd: /bin/sh
 build:
   steps:
-    - setup-go-workspace
+    - setup-go-workspace:
+      package-dir:: docker-goapp-glide
 
     - script:
         name: glide
