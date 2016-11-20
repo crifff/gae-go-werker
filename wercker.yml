@@ -9,10 +9,12 @@ build:
     - script:
         name: glide
         code: |
+          pwd
           glide install
 
     - script:
         name: go test
         code: |
+          pwd
           go test ./...
 
