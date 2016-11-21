@@ -14,5 +14,5 @@ build:
     - script:
         name: go test
         code: |
-          ~/go_appengine/goapp test ./...
+          ~/go_appengine/goapp test $(glide novendor)
 

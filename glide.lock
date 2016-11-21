@@ -1,8 +1,46 @@
-hash: b111a467b962e1f2729184917292aa377b2359c3a3d4de5ddca1f98b31e9549f
-updated: 2016-11-19T00:25:00.492780694+09:00
+hash: f225034634e85786eb87f8eb8bd410ffd83660ddb970c13743c11120a8c58691
+updated: 2016-11-21T23:11:09.512775892+09:00
 imports:
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: 0eeaf8392f5b04950925b8a69fe70f110fa7cbfc
-testImports: []
+- name: google.golang.org/appengine
+  version: 150dc57a1b433e64154302bdc40b6bb8aefa313a
+  subpackages:
+  - aetest
+  - datastore
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/blobstore
+  - internal/capability
+  - internal/channel
+  - internal/datastore
+  - internal/image
+  - internal/log
+  - internal/mail
+  - internal/memcache
+  - internal/modules
+  - internal/remote_api
+  - internal/search
+  - internal/socket
+  - internal/system
+  - internal/taskqueue
+  - internal/urlfetch
+  - internal/user
+  - internal/xmpp
+  - log
+  - taskqueue
+  - user
+testImports:
+- name: github.com/golang/protobuf
+  version: 8ee79997227bf9b34611aee7946ae64735e6fd93
+  subpackages:
+  - proto
+  - proto/testdata
+  - ptypes/any
+- name: golang.org/x/net
+  version: 4971afdc2f162e82d185353533d3cf16188a9f4e
+  subpackages:
+  - context
