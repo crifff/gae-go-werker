@@ -10,7 +10,8 @@ build:
         name: glide
         code: |
           glide install
-
+test:
+  steps:
     - script:
         name: go test
         code: |
